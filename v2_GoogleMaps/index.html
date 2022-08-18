@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TweePin 2.0</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>Welcome to TweePin (prototype); plz stay safe <3 </h1>
+
+    <div class="search-wrapper">
+        <label for="search">Event Keywords (e.g. NYC flooding) *for testing, put "SHENMEGRUUIK KAIZEGNAH"</label>
+        <input type="search" id="mySearch" name="mySearch">
+        <button id="searchButton">Search!</button>
+        <p id="instructions">Please type your keywords above!</p>
+    </div>
+
+    <div id="map"></div>
+
+    <div id="overlay">
+        <div class="top-bar">
+            <h1>
+                My Forum
+            </h1>
+        </div>
+        <div class="main">
+            <div class="header">
+            </div>
+            <div class="comments">
+            </div>
+            <textarea></textarea>
+            <button id="commentButton">add comment</button>
+            foo baz bar
+        </div>
+    </div> 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <!-- <script src="pin_script.js"></script> -->
+    <script src="script.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAItU4prIyf-_bRKgEwRvrA_Bv4tD08CTY&map_ids=fe7c219e4e3c5459&callback=initMap"></script>
+    
+    <!-- <template extracted-tweets-template>
+        <div class="card">
+            <div class="header" data-header>Location</div>
+            <div class="body" data-body>Coordinates</div>
+        </div>
+    </template>     -->
+
+
+</body>
+</html>
